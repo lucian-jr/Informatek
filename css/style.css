@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@font-face{
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto";
+    min-height: 100vh;
+    top: 0;
+    color: #000;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+    background-attachment: scroll;
+}
+
+a {
+    text-decoration: none !important;
+}
+span {
+    font-size: 14px !important;
+    line-height: 20px;
+}
+
+body.page-home {
+    margin-top: 70px;
+}
+
+body.page-home .banner .img-block img {
+    width: 100%;
+}
+
+body.page-home .prev-servicos {
+    max-width: 1350px; 
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+body.page-home .prev-servicos .container {
+    max-width: 1350px; 
+    margin: auto;
+}
+
+body.page-home .prev-servicos .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.page-home .prev-servicos .titulo img {
+    width: 45px;
+    margin-right: 15px;
+}
+
+body.page-home .prev-servicos .titulo h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+body.page-home .prev-servicos .container .descricao {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+body.page-home .prev-servicos .container .showcase {
+    display: flex;
+    justify-content: space-between;
+
+    width: 70%;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+body.page-home .prev-servicos .container .showcase .box {
+    position: relative;
+    box-shadow: #808080 4px 10px 18px;;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+body.page-home .prev-servicos .container .showcase .box:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+body.page-home .prev-servicos .container .showcase .box i {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+
+    font-size: 25px;
+}
+
+body.page-home .prev-servicos .container .showcase .box h3 {
+    font-weight: 400;
+}
+
+body.page-home .prev-servicos .container .showcase .box img {
+    width: 125px;
+}
+
+body.page-home .prev-servicos .container .showcase .box a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body.page-home .prev-servicos .container .red-button {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+body.page-home .prev-servicos .container .red-button a {
+    background-color: #E84052;
+    color: #fff;
+    padding: 10px 33px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 3px #2a2a2a;
+}
+
+body.page-home .prev-servicos .container .red-button a:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+body.page-home .about-informatek {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+body.page-home .about-informatek .container {
+    max-width: 1350px; 
+    margin: auto;
+    padding: 1px;
+}
+
+body.page-home .about-informatek .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+body.page-home .about-informatek .titulo img {
+    width: 45px;
+    margin-right: 15px;
+}
+
+body.page-home .about-informatek .titulo h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/* body.page-home .about-informatek .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+body.page-home .about-informatek .logo img {
+    width: 350px;
+} */
+
+body.page-home .about-informatek .text-block {
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+body.page-home .about-informatek .text-block p {
+    font-weight: 300;
+    line-height: 26px;
+}
+
+body.page-home .localizacao {
+    margin-top: 40px;
+}
+
+body.page-home .localizacao .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+body.page-home .localizacao .titulo img {
+    width: 45px;
+    margin-right: 15px;
+}
+
+body.page-home .localizacao .titulo h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+body.page-home .localizacao .div-map #map {
+    height: 450px;
+    width: 100%;
+    max-width: none!important;
+    background: none!important;
+}
+
+
+@media only screen and (max-width: 1100px){
+    body.page-home .prev-servicos .container .showcase {
+        width: 85%;
+    }
+    body.page-home .prev-servicos .container .showcase .box {
+        width: 215px;
+        height: 215px;
+    }
+    body.page-home .prev-servicos .container .showcase .box img {
+        width: 85px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    body.page-home .prev-servicos .container .showcase {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+    body.page-home .prev-servicos .container .showcase .box {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    div.bloco-esquerda img {
+        width: 138px;
+        height: 70px;
+        margin: unset; 
+        display: flex;
+    }
+    div.bloco-esquerda a {
+        width: 139px !important;
+    }
+    body.page-home .prev-servicos {
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    body.page-home .prev-servicos .titulo {
+        flex-direction: column;
+    }
+    body.page-home .prev-servicos .titulo img {
+        width: 35px;
+        margin-bottom: 10px;
+        margin-right: unset;
+    }
+    body.page-home .prev-servicos .titulo h2 {
+        font-size: 21px;
+    }
+    body.page-home .about-informatek .titulo {
+        margin-top: 20px;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    body.page-home .about-informatek .titulo img {
+        width: 35px;
+        margin-bottom: 10px;
+        margin-right: unset;
+    }
+    body.page-home .about-informatek .titulo h2 {
+        font-size: 21px;
+    }
+    body.page-home .about-informatek .text-block {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    body.page-home .localizacao .titulo {
+        flex-direction: column;
+    }
+    body.page-home .localizacao .titulo img {
+        width: 35px;
+        margin-bottom: 10px;
+        margin-right: unset;
+    }
+    body.page-home .localizacao .titulo h2 {
+        font-size: 21px;
+    }
+}

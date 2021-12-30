@@ -1,0 +1,123 @@
+footer.footer {
+    background: #2A2A2A;
+}
+
+footer.footer .container-large {
+    max-width: 1350px;
+    padding: 20px 10px;
+    align-items: center;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    margin: auto;
+}
+
+footer .div-left {
+    display: grid;
+    justify-content: center;
+    width: 350px;
+    margin: auto;
+}
+footer .div-left .titulo p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+footer .div-left .logo {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+footer .div-left .logo img{
+    margin: 0px 15px;
+    width: 300px;
+}
+
+footer.footer .container-large .informatek-contato{
+    margin-left: 15%;
+    color: #FFFFFF;
+    line-height: 24px;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+}
+
+footer.footer .container-large .informatek-contato p {
+    font-size: 14px;
+}
+
+footer.footer .container-large .informatek-contato .endereco{
+    margin-top: 10px;
+}
+
+footer.footer .container-large .formas-pagamento{
+    color: #FFFFFF;
+    padding-top: 20px;
+    color: white;
+    line-height: 10px;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+}
+
+footer.footer .container-large .formas-pagamento h4{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Roboto';
+} 
+
+footer.footer .container-large .formas-pagamento .pagamento-imgs a{
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 30px;
+    font-family: 'Roboto';
+} 
+
+footer.footer .copyright{
+    height: 30px;
+    background-color: #3f3f3f;
+    color: rgba(255, 255, 255, 0.74);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+footer.footer .copyright h4{
+    position: relative;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 600px){
+    footer.footer .container-large {
+       display: inherit !important;
+    }
+    footer.footer .container-large .formas-pagamento {
+        margin-top: 15px;
+    } 
+    footer.footer .copyright h4 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    footer .div-left {
+        width: 250px;
+    }
+    footer .div-left .logo img {
+        margin: 0px 15px;
+        width: 100%;
+    }
+    footer.footer .container-large .informatek-contato {
+        width: 250px;
+    }
+}
